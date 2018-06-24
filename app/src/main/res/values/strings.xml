@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Trainee Share</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Trainee Share</string>
+    <string name="nav_header_subtitle">app@traineeshare.com</string>
+    <string name="nav_header_desc">Trainee Share</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="LoginImageView">LoginPageLogo</string>
+    <string name="register_here">Register Here</string>
+    <string name="login">Login</string>
+    <string name="select_role">Please select a role: </string>
+
+    <string name="title_activity_register">Register</string>
+    <string name="tab_text_1">Student Register</string>
+    <string name="tab_text_2">Employer Register</string>
+    <string name="company_logo">Company Logo</string>
+    <string name="select">Select</string>
+    <string name="upload">Upload</string>
+    <string name="company_address">Company Address</string>
+    <string name="company_email_login">Company Email (Login)</string>
+    <string name="company_name">Company Name</string>
+    <string name="company_detail">Company Detail</string>
+    <string name="contact_person_first_name">Contact Person First Name</string>
+    <string name="contact_person_last_name">Contact Person Last Name</string>
+    <string name="company_contact_number">Company Contact Number</string>
+    <string name="login_password">Login Password</string>
+    <string name="confirm_login_password">Confirm Login Password</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_student_main">Student</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="student_detail">Student Detail</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="address">Address</string>
+    <string name="name">STUDENT NAME</string>
+    <string name="userProfilePicture">userProfilePicture</string>
+    <string name="search">Search...</string>
+    <string name="button">Button</string>
+
+
+    <string name="student_TC">"TERMS AND CONDITION \n
+        <b>Registration</b>\n
+        -To register on the TraineeShare App you must be 15 years of age or above and an active student in university or college.\n
+        -You must ensure that the details provided by you on registration or at any time are correct and complete.\n
+        -You must inform us immediately of any changes to the information that you provided when registering by updating your personal details in order that we can communicate with you effectively.\n
+        <b>Password and security</b>\n
+        -When you register to use the TraineeShare App you will be asked to create a password. In order to prevent fraud, you must keep this password confidential and must not disclose it or share it with anyone.\n
+        -If TraineeShare has reason to believe that there is likely to be a breach of security or misuse of the TraineeShare App, we may require you to change your password or we may suspend your account.\n
+        -As a result of your loss of your Password or the misuse of the TraineeShare App:\n
+        \t -all losses or damage incurred thereby shall be borne by you; and\n
+        \t -you shall fully indemnify TraineeShare should TraineeShare suffer any loss or damage.</string>
+
+    <string name="employer_TC">TERMS AND CONDITION \n
+    <b>Registration</b>\n
+    -TraineeShare hereby grants you a limited, terminable, non-exclusive right to access and use JobStreet.com Website for your internal
+        business use seeking candidates for employment. This authorizes you to view and download a single copy of JobStreet.com Content or materials on JobStreet.com Website solely for your use directly related to searching for and recruiting Candidates.\n
+    -TraineeShare also grants you a limited, terminable, non-exclusive right to use TraineeShare Services for your internal use only.\n
+    -You are responsible for maintaining the confidentiality of your Employer account, Company Profiles and passwords, as applicable.\n
+    -You may not share your password or other account access information with any other party, temporarily or permanently,
+        and you shall be strictly liable and/or responsible for all uses of your JobStreet.com Website registrations and passwords,
+        whether or not authorized by you.\n
+    -You agree to immediately notify TraineeShare of any unauthorized use of your employer account, Company Profiles or passwords.\n
+    -Employer represents, warrants and covenants that any Employer Materials provided by Employer for use in connection with TraineeShare
+        Services will not violate any laws or regulations or third-party proprietary rights, including, without limitation, copyright,
+        trade mark, obscenity, rights or publicity or privacy, and defamation laws.
+    -Employers acknowledge and agree that it shall disregard any personal data received from the Candidate which are irrelevant to
+        obtaining and assessing the suitability of candidates.\n
+    -Employers are solely responsible for the Employer Materials on TraineeShare App. TraineeShare is not to be considered to be an employer with respect to your use of any TraineeShare App and TraineeShare
+        shall not be responsible for any employment decisions, for whatever reasons, made by any entity posting jobs on any TraineeShare App.\n</string>
+    -You must ensure that the details provided by you on registration or at any time are correct and complete.\n
+    -You must inform us immediately of any changes to the information that you provided when registering by updating your personal details in order that we can communicate with you effectively.\n
+    <string name="forget_password">Forget Password?</string>
+
+    <string name="selectAction">Please select category:</string>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="studentProfileSelection">
+        <item>Preview</item>
+        <item>Experience</item>
+        <item>Education</item>
+        <item>Skills</item>
+        <item>Languages</item>
+        <item>Additional Info</item>
+        <item>About Me</item>
+        <item>Upload Resume</item>
+    </string-array>
+
+    <string-array name="JobFiledSelection">
+    <item>Business</item>
+    <item>IT/Computer</item>
+    <item>Hospitality</item>
+    <item>Account/Finance</item>
+    <item>Public Relation</item>
+    </string-array>
+</resources>

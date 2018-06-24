@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/student_Profile_Preview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="student.Student_Profile_Preview_Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/iv_studentProfilePic"
+                android:layout_width="131dp"
+                android:layout_height="142dp"
+                android:layout_marginEnd="116dp"
+                android:layout_marginLeft="116dp"
+                android:layout_marginRight="116dp"
+                android:layout_marginStart="116dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/userProfilePicture"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_profile"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_studentName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="174dp"
+                android:layout_marginLeft="174dp"
+                android:layout_marginRight="174dp"
+                android:layout_marginStart="174dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/name"
+                android:textColor="#8E44AD"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv_studentProfilePic" />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_studentName" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "250381451011",
+    "firebase_url": "https://traineeshare-326a2.firebaseio.com",
+    "project_id": "traineeshare-326a2",
+    "storage_bucket": "traineeshare-326a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250381451011:android:e99520272e2baaa8",
+        "android_client_info": {
+          "package_name": "android.com.traineeshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250381451011-1pu04u771ogg2ll1emvfrrav16tecpas.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.com.traineeshare",
+            "certificate_hash": "fdeed442730fd3ea4891066e7572f0c709a52c17"
+          }
+        },
+        {
+          "client_id": "250381451011-s9lptq4gteb5lfkhbtat3ff0bqpv3jlo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiEMdYvbLZk5wBowTamu-neTcsx8ZoJ6k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250381451011-s9lptq4gteb5lfkhbtat3ff0bqpv3jlo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
