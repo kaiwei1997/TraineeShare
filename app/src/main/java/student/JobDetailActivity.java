@@ -25,10 +25,6 @@ public class JobDetailActivity extends AppCompatActivity {
 
         test = bundle.getString("Test");
 
-        test1 = findViewById(R.id.tv_test);
-
-        test1.setText(test);
-
     }
 
     @Override

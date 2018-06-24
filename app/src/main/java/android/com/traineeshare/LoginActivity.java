@@ -135,13 +135,13 @@ public class LoginActivity extends AppCompatActivity {
         if (TextUtils.isEmpty(email)) {
             et_email.setError("Email cannot be empty");
         }
-        if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+        else if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
             et_email.setError("Email invalid");
         }
-        if (TextUtils.isEmpty(pass)) {
+        else if (TextUtils.isEmpty(pass)) {
             et_pass.setError("Password cannot be empty");
         }
-        if (!Password_Validator.validate(pass)) {
+        else if (!Password_Validator.validate(pass)) {
             et_pass.setError("Password invalid");
         } else {
             mPr.setMessage("Signing in...");
