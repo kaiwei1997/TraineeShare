@@ -71,7 +71,7 @@ public class CompanyMainFragment extends Fragment {
                 holder.itemView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent intent = new Intent(getActivity(), CompanyCheckApplicationActivity.class);
+                        Intent intent = new Intent(getActivity(), CompanyCheckJobActivity.class);
                         Bundle bundle = new Bundle();
                         bundle.putString("JobID",getRef(position).getKey());
                         intent.putExtras(bundle);

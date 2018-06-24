@@ -26,7 +26,7 @@ import com.squareup.picasso.Picasso;
 import model.Company;
 import model.Vacancy;
 
-public class CompanyCheckApplicationActivity extends AppCompatActivity {
+public class CompanyCheckJobActivity extends AppCompatActivity {
 
     private ImageView companyLogo;
     private String job_id, uid;
@@ -96,7 +96,7 @@ public class CompanyCheckApplicationActivity extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
-                Toast.makeText(CompanyCheckApplicationActivity.this, databaseError.getMessage(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(CompanyCheckJobActivity.this, databaseError.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -115,7 +115,7 @@ public class CompanyCheckApplicationActivity extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
-                Toast.makeText(CompanyCheckApplicationActivity.this, databaseError.getMessage(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(CompanyCheckJobActivity.this, databaseError.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -147,7 +147,7 @@ public class CompanyCheckApplicationActivity extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
-                Toast.makeText(CompanyCheckApplicationActivity.this, databaseError.getMessage(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(CompanyCheckJobActivity.this, databaseError.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
     }
