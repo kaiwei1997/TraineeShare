@@ -201,7 +201,7 @@ public class CompanyMainActivity extends AppCompatActivity
                 break;
 
             case R.id.nav_profile:
-
+                fragmentControl(CompanyProfileFragment.class);
                 break;
 
             default:
