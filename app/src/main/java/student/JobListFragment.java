@@ -60,7 +60,7 @@ public class JobListFragment extends Fragment {
         companyLogoUrlRef = FirebaseDatabase.getInstance().getReference();
         mJobList = rootView.findViewById(R.id.rv_vacancy);
 
-        query = rootRef.child("vacancy");
+        query = rootRef.child("vacancy").orderByKey();
         FirebaseRecyclerOptions<Vacancy> firebaseRecyclerOptions = new FirebaseRecyclerOptions.Builder<Vacancy>()
                 .setQuery(query, Vacancy.class)
                 .build();
