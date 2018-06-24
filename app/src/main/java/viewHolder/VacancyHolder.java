@@ -1,8 +1,6 @@
 package viewHolder;
 
 import android.com.traineeshare.R;
-import android.content.Context;
-import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
@@ -15,14 +13,14 @@ public class VacancyHolder extends RecyclerView.ViewHolder{
     private final ImageView iv_companyLogo;
     private final TextView tv_title;
     private final TextView tv_company;
-    private final TextView tv_desc;
+    private final TextView tv_period;
 
     public VacancyHolder(View itemView){
         super(itemView);
         iv_companyLogo = (ImageView)itemView.findViewById(R.id.iv_jobCompanyLogo);
         tv_title = (TextView)itemView.findViewById(R.id.tv_jobTitle);
         tv_company = (TextView)itemView.findViewById(R.id.tv_jobCompany);
-        tv_desc = (TextView)itemView.findViewById(R.id.tv_jobWorkingArea);
+        tv_period = (TextView)itemView.findViewById(R.id.tv_jobPeriod);
     }
 
     public void setIv_companyLogo(String url){
@@ -36,7 +34,7 @@ public class VacancyHolder extends RecyclerView.ViewHolder{
         tv_company.setText(c);
     }
 
-    public void setTv_desc(String d){
-        tv_desc.setText(d);
+    public void setTv_period(String d){
+        tv_period.setText(d);
     }
 }

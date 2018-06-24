@@ -41,21 +41,21 @@
                 android:id="@+id/tv_jobCompany"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_above="@+id/tv_jobWorkingArea"
-                android:layout_alignStart="@+id/tv_jobWorkingArea"
+                android:layout_above="@+id/tv_jobPeriod"
+                android:layout_alignStart="@+id/tv_jobPeriod"
                 android:text="Company"
                 android:textSize="12dp"
                 app:layout_constraintStart_toEndOf="@+id/iv_jobCompanyLogo"
                 app:layout_constraintTop_toBottomOf="@+id/tv_jobTitle" />
 
             <TextView
-                android:id="@+id/tv_jobWorkingArea"
+                android:id="@+id/tv_jobPeriod"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@+id/iv_jobCompanyLogo"
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="73dp"
-                android:text="Working Area"
+                android:text="Intern period"
                 android:textSize="12dp"
                 app:layout_constraintStart_toEndOf="@+id/iv_jobCompanyLogo"
                 app:layout_constraintTop_toBottomOf="@+id/tv_jobCompany" />

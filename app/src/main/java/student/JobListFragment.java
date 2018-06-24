@@ -94,7 +94,7 @@ public class JobListFragment extends Fragment {
                     }
                 });
 
-                holder.setTv_desc(model.getJob_description());
+                holder.setTv_period(model.getIntern_period());
 
                 holder.itemView.setOnClickListener(new View.OnClickListener() {
                     @Override
