@@ -102,7 +102,7 @@ public class JobListFragment extends Fragment {
                         String test = ((TextView) mJobList.findViewHolderForAdapterPosition(position).itemView.findViewById(R.id.tv_jobTitle)).getText().toString();
                         Intent intent = new Intent(getActivity(),JobDetailActivity.class);
                         Bundle bundle = new Bundle();
-                        bundle.putString("Test",getRef(position).getKey());
+                        bundle.putString("JobID",getRef(position).getKey());
                         intent.putExtras(bundle);
                         startActivity(intent);
                     }
