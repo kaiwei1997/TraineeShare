@@ -34,34 +34,11 @@ public class StudentProfileFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_student_profile, container, false);
 
-        selection_spinner = rootView.findViewById(R.id.spinner_profile_selection);
-
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getActivity(), R.array.studentProfileSelection, android.R.layout.simple_spinner_dropdown_item);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        selection_spinner.setAdapter(adapter);
-        selection_spinner.setOnItemSelectedListener(listener);
+        fragmentControl(Student_Profile_Preview_Fragment.class);
 
         return rootView;
     }
 
-    AdapterView.OnItemSelectedListener listener = new AdapterView.OnItemSelectedListener() {
-        public void onItemSelected(AdapterView<?> parent, View view,
-                                   int position, long id) {
-            Spinner spinner = (Spinner) parent;
-            switch (spinner.getSelectedItemPosition()) {
-                case 0:
-                    fragmentControl(Student_Profile_Preview_Fragment.class);
-                    break;
-                default:
-                    break;
-            }
-
-        }
-
-        public void onNothingSelected(AdapterView<?> parent) {
-            Toast.makeText(getActivity(), "Nothing", Toast.LENGTH_SHORT).show();
-        }
-    };
 
     public void fragmentControl(Class fragmentClass) {
         Fragment fragment = null;
