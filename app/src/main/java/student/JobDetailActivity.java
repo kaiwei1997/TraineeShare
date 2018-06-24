@@ -72,7 +72,7 @@ public class JobDetailActivity extends AppCompatActivity {
         applyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                dbA.setValue(mAuth.getCurrentUser().getUid());
+                dbA.child("studentID").setValue(mAuth.getCurrentUser().getUid());
             }
         });
 

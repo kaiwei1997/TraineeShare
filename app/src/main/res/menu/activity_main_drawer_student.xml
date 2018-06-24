@@ -12,14 +12,6 @@
             android:id="@+id/nav_student_profile"
             android:icon="@drawable/ic_profile_filled"
             android:title="My Resume" />
-        <item
-            android:id="@+id/nav_student_application"
-            android:icon="@drawable/ic_job_application"
-            android:title="My Application" />
-        <item
-            android:id="@+id/nav_student_interview_invitation"
-            android:icon="@drawable/ic_interview_invitation"
-            android:title="My Interview Invitation"/>
 
     </group>
 

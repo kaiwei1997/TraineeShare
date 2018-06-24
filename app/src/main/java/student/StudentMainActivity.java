@@ -198,13 +198,6 @@ public class StudentMainActivity extends AppCompatActivity
                 fragmentControl(StudentProfileFragment.class);
                 break;
 
-            case R.id.nav_student_application:
-                break;
-
-            case R.id.nav_student_interview_invitation:
-
-                break;
-
             default:
                 fragmentControl(JobListFragment.class);
         }

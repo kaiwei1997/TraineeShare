@@ -196,10 +196,6 @@ public class CompanyMainActivity extends AppCompatActivity
 
                 break;
 
-            case R.id.nav_appointment:
-
-                break;
-
             case R.id.nav_profile:
                 fragmentControl(CompanyProfileFragment.class);
                 break;

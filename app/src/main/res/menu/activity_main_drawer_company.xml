@@ -13,10 +13,6 @@
             android:icon="@drawable/ic_job_application"
             android:title="Application" />
         <item
-            android:id="@+id/nav_appointment"
-            android:icon="@drawable/ic_appointment"
-            android:title="Appointment" />
-        <item
             android:id="@+id/nav_profile"
             android:icon="@drawable/ic_company_profile"
             android:title="Profile" />
