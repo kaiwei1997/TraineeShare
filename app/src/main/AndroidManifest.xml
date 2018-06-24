@@ -48,7 +48,7 @@
             android:name="student.JobDetailActivity"
             android:theme="@style/AppTheme" />
         <activity android:name="admin.AdminActivity" />
-        <activity android:name=".CompanyCheckApplicationActivity"></activity>
+        <activity android:name="employer.CompanyCheckApplicationActivity"></activity>
     </application>
 
 </manifest>
