@@ -98,8 +98,6 @@ public class StudentRegisterActivity extends Fragment {
         et_pass = rootView.findViewById(R.id.et_StudentPassword);
         et_conf_pass = rootView.findViewById(R.id.et_StudentConfirmPassword);
 
-        et_firstName.setEnabled(false);
-
         mAuth = FirebaseAuth.getInstance();
 
         storage = FirebaseStorage.getInstance();
