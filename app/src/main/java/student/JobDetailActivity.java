@@ -53,7 +53,7 @@ public class JobDetailActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         db = FirebaseDatabase.getInstance().getReference().child("company");
         dbV = FirebaseDatabase.getInstance().getReference().child("vacancy");
-        dbA = FirebaseDatabase.getInstance().getReference().child("application").child(jobID);
+
 
         companyLogo = findViewById(R.id.company_logo);
         companyName = findViewById(R.id.company_name);
@@ -69,12 +69,7 @@ public class JobDetailActivity extends AppCompatActivity {
         applyButton = findViewById(R.id.applyButton);
 
         companyEmail.setText(mAuth.getCurrentUser().getEmail());
-        applyButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                dbA.child("studentID").setValue(mAuth.getCurrentUser().getUid());
-            }
-        });
+
 
         dbV.child(jobID).child("company_id").addValueEventListener(new ValueEventListener() {
             @Override
@@ -91,7 +86,13 @@ public class JobDetailActivity extends AppCompatActivity {
         });
         loadJobProfile(jobID);
 
-
+        applyButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dbA = FirebaseDatabase.getInstance().getReference().child("application").child(cid);
+                dbA.child(jobID).child("studentID").setValue(mAuth.getCurrentUser().getUid());
+            }
+        });
     }
 
     @Override
