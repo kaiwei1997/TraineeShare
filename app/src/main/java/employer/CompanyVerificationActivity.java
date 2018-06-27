@@ -108,7 +108,19 @@ public class CompanyVerificationActivity extends AppCompatActivity {
 
         mProgress = new ProgressDialog(CompanyVerificationActivity.this);
 
+        btn_Upload.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                uploadImageChoice();
+            }
+        });
 
+        btn_Submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                submitApplication();
+            }
+        });
     }
 
     @Override
